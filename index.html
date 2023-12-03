@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="function.js"></script>
+
+    <style>
+    
+.body{
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/605912bd230e6a00011a8072-image_208bedb0.jpeg?region=0,0,1536,864) ;
+}
+
+
+.mainheading{
+    padding: 5px;
+    margin: 5px;
+    font-family:'Franklin Gothic Medium' ;
+    color: crimson;
+    text-align: center;
+    text-shadow: 5px;
+    border-style: ridge;
+    border-color: rgb(20, 127, 220);
+    border-radius: 2px;
+    border-width: 8px;
+}    
+
+.subheading1{
+    
+    font-family:'Franklin Gothic Medium' ;
+    color: rgb(244, 10, 57);
+    text-shadow: 5px;
+
+}
+
+.subheading2{
+    padding: 5px;
+    margin: 5px;
+    font-family: ;
+    color: rgb(240, 13, 58);
+    text-align: center;
+    text-shadow: 5px;
+    font-family: 'Franklin Gothic Medium';
+    
+}
+
+.paragraph{
+    color: aqua;
+    font-family:  sans-serif;
+    text-align: left;
+    
+}
+
+.borders{
+    padding: 5px;
+    margin: 5px;
+    font-family: ;
+    color: rgb(11, 178, 178);
+    
+    text-shadow: 5px;
+    font-family: 'Franklin Gothic Medium';
+    
+    border-style: ridge;
+    border-color:crimson;
+    border-radius: 2px;
+    border-width: 4px;
+}
+.flex-container1 {
+  display: flex;
+  flex-direction: row;
+}
+
+    </style>
+
+    
+    
+    
+
+</head>
+<body class="body">
+    <h1 class="mainheading">Handling Objections: </h1>
+    <!-- using css flexbox for item placement -->
+    <div class="flex-container1">
+        <div class="borders" >
+            Exceptions: sometimes we get errors even with 
+            well written code. 
+            You can use the try catch method to 
+            identify bugs. JavaScript is an interpreted language, 
+            and so some Errors are caught at interpret time.  However,
+             many Exceptions are not caught until the program is running. 
+            
+
+        </div>
+        <div>
+            <h2 class="subheading1">Types of errors</h2>
+            <h4 class="subheading1">syntax error</h4>
+        <p class="paragraph">
+            These are caught at interpret time.
+            When a syntax error occurs in JavaScript, 
+            only the code contained within the same thread
+            as the syntax error is affected and the 
+            rest of the code gets executed assuming nothing in them depends on 
+            the code containing the error  (e.g. a missing closing curly brace).
+        </p>
+            <h4 class="subheading1">Logical errors</h4>
+        <p class="paragraph">
+            the code might appear right, and contain no syntax errors, 
+            but the result once the program runs is not what
+             the programmer intended. This will require 
+            a programmer to debug the functionality, 
+            and re-code the solution.
+        </p>
+            <h4 class="subheading1">Runtime errors or Exceptions:</h4>
+        <p class="paragraph">
+            The syntax might be correct, but at runtime, 
+            when the program is executed, 
+            something isn't right example: ( undefined method, etc.). 
+             Exceptions can happen in software, and also in hardware.  
+        </p>
+        
+            
+        </div>
+
+        
+
+        
+
+
+
+
+    
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     
+
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+.mainheading{
+    padding: 5px;
+    margin: 5px;
+    font-family:'Franklin Gothic Medium' ;
+    color: crimson;
+    text-align: center;
+    text-shadow: 5px;
+    border-style: ridge;
+    border-color: rgb(20, 127, 220);
+    border-radius: 2px;
+    border-width: 8px;
+}    
+
+.subheading1{
+    
+    font-family:'Franklin Gothic Medium' ;
+    color: rgb(244, 10, 57);
+    text-shadow: 5px;
+
+}
+
+.subheading2{
+    padding: 5px;
+    margin: 5px;
+    font-family: ;
+    color: rgb(240, 13, 58);
+    text-align: center;
+    text-shadow: 5px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.paragraph{
+    color: aqua;
+    font-family:  sans-serif;
+    text-align: left;
+    
+}
+
+.borders{
+    border-style: ridge;
+    border-color:crimson;
+    border-radius: 2px;
+    border-width: 8px;
+}
+.flex-container1 {
+  display: flex;
+  flex-direction: row;
+}
